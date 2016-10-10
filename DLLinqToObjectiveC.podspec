@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'DLLinqToObjectiveC'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'Brings a Linq-style fluent query API to Objective-C.'
   s.author = {
     'Dmitry Lizin' => 'sdkdimon@gmail.com'
   }
   s.source = {
     :git => 'https://github.com/sdkdimon/DLLinqToObjectiveC.git',
-    :tag => '0.0.1'
+    :tag => '0.0.2'
   }
   s.license      = {
     :type => 'MIT',
