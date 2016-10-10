@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
     :type => 'MIT',
     :file => 'LICENSE'
   }
-  s.platform = :ios, '6.0'
-  s.platform = :osx, '10.8'
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.8'
   s.source_files = 'DLLinqToObjectiveC/DLLinqToObjectiveC/Sources/*.{h,m}', 'DLLinqToObjectiveC/DLLinqToObjectiveC/DLLinqToObjectiveC.h'
   s.module_map = 'DLLinqToObjectiveC/DLLinqToObjectiveC/Supporting Files/module.modulemap'
   s.homepage = 'https://github.com/sdkdimon/DLLinqToObjectiveC.git'
