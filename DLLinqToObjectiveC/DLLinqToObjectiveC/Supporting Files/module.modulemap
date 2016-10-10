@@ -1,0 +1,13 @@
+framework module DLLinqToObjectiveC {
+    umbrella header "DLLinqToObjectiveC.h"
+    export *
+    module * {export *}
+    
+    explicit module Array{
+        header "NSArray+LinqExtensions.h"
+    }
+    
+    explicit module Dictionary{
+        header "NSDictionary+LinqExtensions.h"
+    }
+}
